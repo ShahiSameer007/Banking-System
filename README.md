@@ -65,8 +65,35 @@ These functions ensure:
 ---
 
 ## 🖥️ How to Run
+### 1. Createa a Virtual Environment Install dependencies
+## 🐍 Setup Virtual Environment
 
-### 1. Install dependencies
+### Create venv
+
+```bash
+python -m venv .venv
+```
+
+### Activate
+
+* **Windows (PowerShell)**
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+```
+
+* **Windows (CMD)**
+
+```cmd
+.venv\Scripts\activate
+```
+
+* **macOS/Linux**
+
+```bash
+source .venv/bin/activate
+```
+### Install Streamlit:
 
 ```bash
 pip install streamlit psycopg2-binary
